@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    padding: 1em;
+    width: 100%;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 20px;
+}
+h1{
+    width: 100%;
+    color: cadetblue;
+    font-size: 48vw;
+    text-align: center;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 1400vh;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-color: cadetblue;
+}
+
+.titlescroll{
+    position: absolute;
+    height: 100vh;
+    width: 700vh;
+    top: 0;
+    will-change: transform;
+}
+
+.card{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#card1{
+    top: 50%;
+    left: 20%;
+}
+#card2{
+    top: 25%;
+    left: 40%;
+}
+#card3{
+    top: 45%;
+    left: 60%;
+}
+#card4{
+    top: 15%;
+    left: 80%;
+}
+
+.continuation{
+    position: absolute;
+    top: 150vh;
+    width: 100%;
+    height:600vh;
+}
+
+.page1, .page2, .page3, .page4, .page5, .page6 {
+    height: 100vh;
+    width: 100%;
+}
